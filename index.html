@@ -13,56 +13,318 @@
     <title>Document</title>
   </head>
   <body>
+    <!-- Image and text -->
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img
+          src="/Practica-Bootstrap/images/logo.svg"
+          class="d-inline-block align-top"
+          alt=""
+          loading="lazy"
+        />
+      </a>
 
-    <div class="conteiner-fluid">
+      <div>
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Active</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link disabled"
+              href="#"
+              tabindex="-1"
+              aria-disabled="true"
+              >Disabled</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div
+          class="collapse navbar-collapse"
+          id="navbarTogglerDemo02 justify-content-center"
+        >
+          <form class="form-inline my-2 my-lg-0">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+    </nav>
+
+    <div class="conteiner-fluid bg-white">
+      <img
+        src="/Practica-Bootstrap/images/bg-intro-desktop.svg"
+        class="d-flex justify-content-left"
+        alt="..."
+      />
+
       <div class="row">
         <div class="container">
-          <div class="col-12 col-md-6">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <h1>Next generation digital banking</h1>
+              <p>
+                Take your financial life online. Your Easybank account will be a
+                one-stop-shop for spending, saving, budgeting, investing, and
+                much more.
+              </p>
+              <button type="button" class="btn btn-primary btn-lg">
+                Request Invite
+              </button>
+            </div>
+
+            <div class="col-12 col-md-6 flex-column">
+              <img
+                src="/Practica-Bootstrap/images/image-mockups.png"
+                class="img-fluid"
+                alt="..."
+              />
+            </div>
           </div>
-          <div class="col-12 col-md-6"></div>
         </div>
       </div>
     </div>
+
+
+    <div class="conteiner-fluid back">
+      <div class="row">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-12 pt-5 pb-5">
+              <h2>Why choose Easybank?</h2>
+              <p class="margen">
+                We leverage Open Banking to turn your bank account into your
+                financial hub. Control your finances like never before.
+              </p>
+            </div>
+
+
+
+
+            <div class="card-group pb-5">
+              <div class="card border-0 bg-transparent col-12 col-md-3">
+                <div>
+                  <img
+                    src="/Practica-Bootstrap/images/icon-api.svg"
+                    class="card-img-top img-fluid w-25"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card border-0 bg-transparent col-12 col-md-3">
+                <div>
+                  <img
+                    src="/Practica-Bootstrap/images/icon-budgeting.svg"
+                    class="card-img-top w-25"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This card has supporting text below as a natural lead-in
+                      to additional content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card border-0 bg-transparent col-12 col-md-3">
+                <div>
+                  <img
+                    src="/Practica-Bootstrap/images/icon-budgeting.svg"
+                    class="card-img-top w-25"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This card has even
+                      longer content than the first to show that equal height
+                      action.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card border-0 bg-transparent col-12 col-md-3">
+                <div>
+                  <img
+                    src="/Practica-Bootstrap/images/icon-budgeting.svg"
+                    class="card-img-top w-25"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This card has even
+                      longer content than the first to show that equal height
+                      action.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
 
     <div class="conteiner-fluid">
       <div class="row">
         <div class="container">
           <div class="row">
-            <div class="col-12 col-md-12">columnas de 12-12</div>
-            <div class="col-12 col-md-3">columnas /3 -12</div>
-            <div class="col-12 col-md-3">columnas /3-12</div>
-            <div class="col-12 col-md-3">columnas /3 12</div>
-            <div class="col-12 col-md-3">columnas /3 12</div>
+            <div class="col-12 col-md-12 pt-5 pb-5">
+              <h2>Why choose Easybank?</h2>
+              <h6>
+                We leverage Open Banking to turn your bank account into your
+                financial hub. Control your finances like never before.
+              </h6>
+            </div>
+
+            <div class="card-group bottom">
+              <div class="card border-0 bg-transparent card col-12 col-md-3">
+                <img
+                  src="/Practica-Bootstrap/images/image-confetti.jpg"
+                  class="card-img-top img-fluid"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card border-0 bg-transparent card col-12 col-md-3">
+                <img
+                  src="/Practica-Bootstrap/images/image-currency.jpg"
+                  class="card-img-top h-12"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This card has supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card border-0 bg-transparent card col-12 col-md-3">
+                <img
+                  src="/Practica-Bootstrap/images/image-restaurant.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This card has even longer
+                    content than the first to show that equal height action.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card border-0 bg-transparent card col-12 col-md-3">
+                <img
+                  src="/Practica-Bootstrap/images/image-plane.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This card has even longer
+                    content than the first to show that equal height action.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="conteiner-fluid">
-      <div class="row">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-12">columnas de 12-12</div>
-            <div class="col-12 col-md-3">columnas /3 -12</div>
-            <div class="col-12 col-md-3">columnas /3-12</div>
-            <div class="col-12 col-md-3">columnas /3 12</div>
-            <div class="col-12 col-md-3">columnas /3 12</div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <div class="conteiner-fluid">
-      <div class="row">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-3">columnas de 12-12</div>
-            <div class="col-12 col-md-6">columnas /3 -12</div>
-            <div class="col-12 col-md-3">columnas /3-12</div>
+    <div class="conteiner-fluid footer">
+        <div class="row">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-3 pb-5">
+                  <img src="/Practica-Bootstrap/images/logo.svg"  class="d-inline-block align-top" alt="" loading="lazy">
+              </div>
+              <div class="col-12 col-md-6">
+                  
+                      <ul class="nav flex-column">
+                          <li class="nav-item">
+                            <a class="nav-link active" href="#">Active</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                          </li>
+                        </ul>
+                  
+                      <ul class="nav flex-column">
+                          <li class="nav-item">
+                            <a class="nav-link active" href="#">Active</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                          </li>
+                        </ul>
+                  </div>
+  
+            </div>
+  
+         
+                  
+            
+             
+            </div>
           </div>
         </div>
-      </div>
-    </div>
+      
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.js"
